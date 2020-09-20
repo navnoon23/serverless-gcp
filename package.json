@@ -4,18 +4,21 @@
   "version": "0.0.1",
   "private": true,
   "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "author": "Naveen VK",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/navnoon23/serverless-gcp.git"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": "12.x.x"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "deploy": "gcloud app deploy"
   },
   "dependencies": {
     "express": "^4.16.3"
-  }
+  },
+  "service": "nvkcovidtest"
 }
