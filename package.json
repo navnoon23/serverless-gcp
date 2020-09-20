@@ -1,0 +1,21 @@
+{
+  "name": "nvk-covid-test",
+  "description": "Test Node.js app for GCP Compute App Engine - Standard Environment.",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navnoon23/serverless-gcp.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
